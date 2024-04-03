@@ -1,0 +1,258 @@
+/* Styling the header */
+*{
+    font-family: 'Roboto', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+.header {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    background-color: #333; 
+}
+
+/* Styling the navigation links */
+.navbar {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #e7e96b;
+    margin: 0 20px;
+    font-size: 20px;
+    padding: 20px;
+}
+
+/* Styling the home section */
+.home {
+    height: 98vh;
+    display: flex;
+    align-items: center;
+    background: url(image-1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content {
+    padding: 30px;
+    max-width: 30rem;
+}
+
+.home .content h3 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: #f3f1f1;
+    font-family: Helvetica;
+}
+
+.home .content p {
+    font-size: 1.3rem;
+    font-weight: light;
+    line-height: 1;
+    padding: 1rem 0;
+    color: #f8f5f5;
+}
+
+.btn {
+    border-radius: 7px;
+    background-color: rgb(37, 37, 37);
+    font-size: 20px;
+    color: white;
+    padding: 10px 20px; 
+    text-decoration: none;
+    transition: background-color 0.3s ease; 
+}
+
+/* Hover effect */
+.btn:hover {
+    background-color: #555;
+}
+
+/* About Us Page */
+.heading {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 50px;
+    padding-top: 80px;
+    
+}
+
+.aboutUsPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+
+.aboutimage img {
+    height: 365px; 
+    width: auto; 
+    margin-right: 20px; 
+}
+
+.aboutContent {
+    max-width: 600px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+
+/* MEenu page */
+
+
+
+/* MEenu page */
+
+.menu {
+    text-align: center;
+
+    padding-top: 1px;
+    height: 80vh;
+    margin-bottom: 80px;
+}
+
+.menu .heading {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+}
+
+.box {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.box img {
+    width: 60%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.box h3 {
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.box .price {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.box .price span {
+    color: #333;
+    font-weight: bold;
+}
+
+.box .btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.box .btn:hover {
+    background-color: #555;
+}
+
+/* Contact Section */
+
+.contact {
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 700px; 
+    margin-bottom: 100px;
+}
+
+.contact .heading {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.contact .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact form {
+    max-width: 750px;
+    width: 100%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact form h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact form .inputBox {
+    position: relative;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.contact form .inputBox input {
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact form .inputBox span {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #555;
+}
+
+.contact form .btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.contact form .btn:hover {
+    background-color: #555;
+}
