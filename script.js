@@ -15,4 +15,7 @@ function scrollToMenu() {
 function scrollToMenu() {
     scrollTo('menu');
 }
-
+function toggleNav() {
+    var navLinks = document.getElementById("navLinks");
+    navLinks.classList.toggle("active");
+}
