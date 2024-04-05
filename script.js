@@ -17,5 +17,10 @@ function scrollToMenu() {
 }
 function toggleNav() {
     var navLinks = document.getElementById("navLinks");
-    navLinks.classList.toggle("active");
+    if (navLinks.style.display === "block") {
+        navLinks.style.display = "none";
+    } else {
+        navLinks.style.display = "block";
+    }
 }
+

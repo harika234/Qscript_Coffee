@@ -92,9 +92,10 @@
 
 .aboutUsPage {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 80vh;
+    /* padding-left: 100px; */
 }
 
 .aboutimage img {
@@ -357,7 +358,7 @@
 
 /* Media query for mobile view */
 /* Media query for mobile view */
-@/* Media query for mobile view */
+/* Media query for mobile view */
 @media screen and (max-width: 768px) {
     .nav-links {
         display: none;
